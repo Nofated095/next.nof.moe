@@ -25,8 +25,7 @@ p {
     .title {
         margin: auto;
         width: 80%;
-        border: 3px;
-        padding: 70px 5px 30px;
+        padding: 70px 0px 30px;
         justify-content: space-between;
     }
     .home, .about {
@@ -45,8 +44,7 @@ p {
     .title {
         margin: auto;
         width: 70%;
-        border: 3px;
-        padding: 70px 5px 20px;
+        padding: 70px 0px 20px;
     }
     .home, .about {
         font-size: 20px;
