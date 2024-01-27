@@ -8,10 +8,6 @@
     width: 16vh;
     border-radius: 50%;
 }
-.nav {
-    position: fixed;
-    bottom: 0;
-}
 h1 {
     font-weight: 900;
     font-size: 50px;
