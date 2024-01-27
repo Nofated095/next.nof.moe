@@ -16,11 +16,13 @@ function SwitchNav(value) {
 
 function NaviBar() {
   return (
-    <mdui-navigation-bar value="home">
-      <mdui-navigation-bar-item icon="home--outlined" value="home">Home</mdui-navigation-bar-item>
-      <mdui-navigation-bar-item icon="feed--outlined" value="about">About</mdui-navigation-bar-item>
-      <mdui-navigation-bar-item icon="edit--outlined" value="blog" href="https://blog.amane.icu" target="_blank">Blog</mdui-navigation-bar-item>
-    </mdui-navigation-bar>
+    <div className='nav'>
+        <mdui-navigation-bar value="home">
+          <mdui-navigation-bar-item icon="home--outlined" value="home">Home</mdui-navigation-bar-item>
+          <mdui-navigation-bar-item icon="feed--outlined" value="about">About</mdui-navigation-bar-item>
+          <mdui-navigation-bar-item icon="edit--outlined" value="blog" href="https://blog.amane.icu" target="_blank">Blog</mdui-navigation-bar-item>
+      </mdui-navigation-bar>
+    </div>
   );
 }
 
@@ -34,6 +36,8 @@ export default function App() {
 
   return (
     <>
+
+<NaviBar />
   
   <div class="title">
       <img loading='lazy' src="https://cfdn.nofated.win/avatars/avatar.webp" class='avatar'/>
@@ -69,7 +73,6 @@ export default function App() {
 
 
 
-<NaviBar />
 
 
 
