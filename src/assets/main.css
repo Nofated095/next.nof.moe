@@ -1,6 +1,6 @@
 .title {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
 }
 .avatar {
@@ -23,9 +23,10 @@ p {
 @media screen and (orientation:portrait){
     .title {
         margin: auto;
-        width: 70%;
+        width: 80%;
         border: 3px;
-        padding: 70px;
+        padding: 70px 3px;
+        justify-content: space-between;
     }
     .home, .about {
         font-size: 20px;
