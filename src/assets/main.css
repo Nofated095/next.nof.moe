@@ -15,15 +15,27 @@
 .mdui-prose h2 {
     font-weight: 700;
 }
-.home, .about {
-    font-size: 20px;
-    margin: auto;
-    width: 75%;
-    border: 3px;
-    padding: 3px;
+
+
+@media screen and (orientation:portrait){
+    .home, .about {
+        font-size: 20px;
+        margin: auto;
+        width: 92.5%;
+        border: 3px;
+        padding: 3px;
+    }
 }
 
-
+@media screen and (orientation:landscape){
+    .home, .about {
+        font-size: 20px;
+        margin: auto;
+        width: 70%;
+        border: 3px;
+        padding: 3px;
+    }
+}
 
 
 :root {
