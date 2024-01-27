@@ -1,0 +1,10 @@
+.title {
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10vh;
+}
+.avatar {
+    width: 16vh;
+    border-radius: 50%;
+}

@@ -1,7 +1,7 @@
 {
   "name": "nof.moe",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,11 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emotion/react": "latest",
-    "@emotion/styled": "latest",
-    "@mui/icons-material": "latest",
-    "@mui/material": "latest",
-    "@mui/system": "^5.14.13",
+    "@mdui/icons": "^1.0.2",
+    "mdui": "^2.0.3",
     "react": "latest",
     "react-dom": "latest"
   },
