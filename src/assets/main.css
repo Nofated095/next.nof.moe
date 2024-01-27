@@ -9,6 +9,10 @@ h1 {
 }
 h2 {
     font-weight: 700;
+    font-size: 27px;
+}
+p {
+    font-size: 18.5px;
 }
 
 @media screen and (orientation:portrait){
