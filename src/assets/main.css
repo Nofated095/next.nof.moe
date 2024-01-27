@@ -1,23 +1,23 @@
-.title {
-    margin: auto;
-    width: 75%;
-    border: 3px;
-    padding: 70px;
-}
 .avatar {
+    height: 16vh;
     width: 16vh;
     border-radius: 50%;
 }
-.mdui-prose h1 {
+h1 {
     font-weight: 900;
     font-size: 50px;
 }
-.mdui-prose h2 {
+h2 {
     font-weight: 700;
 }
 
-
 @media screen and (orientation:portrait){
+    .title {
+        margin: auto;
+        width: 70%;
+        border: 3px;
+        padding: 70px;
+    }
     .home, .about {
         font-size: 20px;
         margin: auto;
@@ -28,6 +28,12 @@
 }
 
 @media screen and (orientation:landscape){
+    .title {
+        margin: auto;
+        width: 70%;
+        border: 3px;
+        padding: 70px;
+    }
     .home, .about {
         font-size: 20px;
         margin: auto;
