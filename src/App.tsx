@@ -41,6 +41,27 @@ export default function App() {
     </div>
 
 
+    <div class="home mdui-prose">
+      <h2>Yoo!</h2>
+      <p>I'm Amane, aka Nofated.</p>
+
+      <h2>Misc</h2>
+      <p>📒️ I have a <a href="https://blog.amane.icu/" target="_blank">blog</a> based on Hexo.</p>
+      <p>⌨️ Coding and open-source are great! Let's contribute together!</p>
+      <p>🧪 I used to be an iGEMer. My team won a 🥈silver medal in <a href="https://competition.igem.org/" target="_blank">iGEM Competition</a> 2023!</p>
+
+
+    </div>
+
+
+
+
+    <div class="about mdui-prose">
+      2020022
+
+
+    </div>
+
 
 
 
