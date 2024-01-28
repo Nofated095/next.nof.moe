@@ -37,9 +37,9 @@ export default function App() {
   return (
     <>
 
-<NaviBar />
+    <NaviBar />
   
-  <div class="title">
+    <div class="title">
       <img loading='lazy' src="https://cfdn.nofated.win/avatars/avatar.webp" class='avatar'/>
       <h1>Amane</h1>
     </div>
