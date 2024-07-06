@@ -26,7 +26,13 @@ function NaviBar() {
   );
 }
 
-
+function Ciallo() {
+  let ciallo = 'Ciallo～'
+  let face = '(∠・ω< )⌒★'
+  return (
+    <h3 class='subtitle'>{ciallo}<br></br>{face}</h3>
+  )
+}
 
 
 
@@ -34,23 +40,25 @@ function NaviBar() {
 
 export default function App() {
 
+  let kawaii_face = '(>▽'
   return (
     <>
-
-    <NaviBar />
   
     <div class="title">
       <img loading='lazy' src="https://cfdn.nofated.win/avatars/avatar.webp" class='avatar'/>
-      <h1>Amane</h1>
+      <div>
+        <h1>Amane</h1>
+        <Ciallo />
+      </div>
     </div>
 
 
     <div class="home">
-      <h2>Yoo!</h2>
-      <p>I'm Amane, aka Nofated.</p>
+      <h2>Hello!</h2>
+      <p>I'm Amane Tanikaze. Amane is meaning kawaii! {kawaii_face}</p>
 
-      <h2>Misc</h2>
-      <p>📒️ I have a <a href="https://blog.amane.icu/" target="_blank">blog</a> based on Hexo.</p>
+      <h2>Wonderhoy!</h2>
+      <p>📒️ I have a <a href="https://blog.amane.icu/" target="_blank">blog</a> based on Hugo.</p>
       <p>⌨️ Coding and open-source are great! Let's contribute together!</p>
       <p>🧪 I used to be an iGEMer. My team won a 🥈silver medal in <a href="https://competition.igem.org/" target="_blank">iGEM Competition</a> 2023!</p>
 
@@ -66,23 +74,6 @@ export default function App() {
         </mdui-button>
       </div>
     </div>
-  
-
-
-
-    <div class="about">
-      <h2>About</h2>
-      <p>My full name is Tanikaze Amane, but you may hear some one call me Nofated or nof.</p>
-      <p>I do open-source works, you can check them on <a href="https://github.com/Nofated095" target="_blank">GitHub</a>. Most of them are useless and have lots of bugs.</p>
-
-    </div>
-
-
-
-
-
-
-
 
 
 

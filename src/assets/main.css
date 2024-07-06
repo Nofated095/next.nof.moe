@@ -1,20 +1,25 @@
 .title {
     display: flex;
-    gap: 40px;
+    gap: 30px;
     align-items: center;
 }
 .avatar {
-    height: 135px;
-    width: 135px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
 }
 h1 {
     font-weight: 900;
-    font-family: Red Hat Display;
+    font-family: Red Hat Display, Roboto, 'Open Sans', 'Microsoft YaHei', "Segoe UI", Oxygen, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", STHeiti, "Microsoft YaHei", "Inter", sans-serif;
+    margin: 20px 0px 0px;
 }
 h2 {
     font-weight: 700;
     font-size: 27px;
+}
+.subtitle {
+    margin: 0px 0px 0px;
+    font-family: Roboto, --apple-system, 'Open Sans', 'Microsoft YaHei', "Segoe UI", Oxygen, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", STHeiti, "Microsoft YaHei", "Inter", sans-serif;
 }
 p {
     font-size: 18.5px;
@@ -28,7 +33,7 @@ p {
         padding: 70px 0px 30px;
         justify-content: space-between;
     }
-    .home, .about {
+    .home {
         font-size: 20px;
         margin: auto;
         width: 92.5%;
