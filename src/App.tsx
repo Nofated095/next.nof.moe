@@ -3,29 +3,6 @@ import './assets/main.css'
 
 
 
-
-function SwitchNav(value) {
-  mdui.$("#home").hide();
-  mdui.$("#about").hide();
-
-  mdui.$(value).show();
-}
-
-
-
-
-function NaviBar() {
-  return (
-    <div className='nav'>
-        <mdui-navigation-bar value="home" label-visibility="selected">
-          <mdui-navigation-bar-item icon="home--outlined" value="home">Home</mdui-navigation-bar-item>
-          <mdui-navigation-bar-item icon="feed--outlined" value="about">About</mdui-navigation-bar-item>
-          <mdui-navigation-bar-item icon="edit--outlined" value="blog" href="https://blog.amane.icu" target="_blank">Blog</mdui-navigation-bar-item>
-      </mdui-navigation-bar>
-    </div>
-  );
-}
-
 function Ciallo() {
   let ciallo = 'Ciallo～'
   let face = '(∠・ω< )⌒★'
@@ -75,6 +52,10 @@ export default function App() {
       </div>
     </div>
 
+    <footer class="footer">
+      <center><p class="footer_text">Made with 💖 by <a href="#">Amane</a>.</p></center>
+      <center><p class="footer_text"><a href="https://icp.gov.moe/?keyword=20230721" target="_blank">萌 ICP 备 20230721 号</a></p></center>
+    </footer>
 
 
 </>
